@@ -1,0 +1,28 @@
+{
+  "name": "echo-action",
+  "version": "1.0.0",
+  "description": "github action for echoing a message entered as an input. Node 20.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MauroOyhanart/echo-action.git"
+  },
+  "keywords": [
+    "github-actions",
+    "learning",
+    "echo"
+  ],
+  "author": "MauroOyhanart",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/MauroOyhanart/echo-action/issues"
+  },
+  "homepage": "https://github.com/MauroOyhanart/echo-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.11.1",
+    "@actions/github": "^6.0.0"
+  }
+}

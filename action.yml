@@ -1,0 +1,13 @@
+name: 'echo-action'
+description: 'Echo the message entered as an input. Output the time of the echo action'
+inputs:
+  message:  # id of input
+    description: 'The message to echo'
+    required: true
+    default: ' '
+outputs:
+  time: # id of output
+    description: 'Time of echo'
+runs:
+  using: 'node20'
+  main: 'index.js'
